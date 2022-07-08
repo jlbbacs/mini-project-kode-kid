@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    background-color: #1266F1;
+    color: white;
+  
+}
+.navbar a{
+    color: rgb(242, 250, 250);
+    /* font-family:Arial, Helvetica, sans-serif; */
+    margin-left: 1rem;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+body{
+   
+    background-size: auto;
+    background-color: #f8f4f8;
+    /* background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%23b8aacf' fill-opacity='0.24'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
+}
+
+#logotext{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    color: rgb(255, 249, 249);
+    text-shadow: 3px 3px #11010e;
+  
+    
+}
+
+#img-about{
+    width: auto;
+    height: auto;
+}
+
+ul{
+    list-style: none;
+   
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+}
+
+li a:hover{
+    background-color: aliceblue;
+    font-weight: bolder;
+    
+}
+    
+#h1-home{
+ 
+    font-size: 2rem;
+    font-weight: 200;
+    
+}
+
+.h1-html{
+    font-weight: 100 bolder;
+}
+
+#subject{
+    width:100%;
+    height: auto;
+    margin-top: 10px;
+    padding: 5px
+
+}
+
+/* girl image in index  */
+#kid1code{
+    width: 100%;
+  
+
+     
+}
+
+#left-h1{
+    color: rgb(19, 109, 226);
+    font-family: sans-serif;
+    font-weight: bolder;
+   
+  
+}
+#left-h2{
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-bottom: 0;
+    
+    color: rgb(83, 77, 77);
+
+}
+
+#coding{
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+    color: rgb(253, 118, 8);
+
+
+}
+
+
+
+#why-coding{
+    background-color: blueviolet;
+}
+
+#ourcore{
+    color: rgb(11, 105, 247);
+    font-weight: bolder;
+}
+#offcanvasTop{
+    color: #11010e;
+}
+
+.navbar a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+
+.accordion-item{
+    margin-top: 1rem;
+}
+ 
+#membertext  {
+    color: rgb(249, 251, 252);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#icon-image{
+    width:200px;
+    height:200px;
+   
+}
+#emaillogo{
+    width: 50px;
+    height: 50px;
+    padding-bottom: 2px;
+}
+
+
+ a {
+    text-decoration: none;
+ }
+
+#kidsterm{
+    width:100%;
+    height:100%;
+    padding:5px;
+  
+}
+
+#btn-submit{
+    width: 100%;
+}
+
+#golarge{
+    transition: 1s;
+ 
+}
+#golarge :hover{
+    transform:scale(1.1) ;
+    transition: all 0.5s;
+}
+
+
+ #imagetop{
+    width: 60%;
+    height: 60%;
+    margin-bottom: 10px;
+    
+} 
+
+
+
+
+#userlogo{
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+/* css list */
+
+#csslist{
+    list-style:disc;
+}
+
+
+
+#contact {
+    font-weight:lighter;
+    color: rgb(247, 109, 11);
+
+}
+
+#subject{
+    height: 150px;
+}
+#btnsub{
+    width: 100%;
+}
+
+#imagecontact{
+   height: 80%;
+    
+}
+.ulElement{
+    line-height: 250%;
+
+}
+#text-height{
+line-height: 200%;
+}
+
+#video-list{
+    line-height: 50px;
+}
+
+#about{
+    width: 100%;
+    height: 30vh;
+}
+#notepad {
+    width: 80px;
+}
+#image-3{
+    width: 300PX;
+    height: 200PX;
+}
+
+p{
+    line-height: 33px;
+}
+
+#about{
+    border-radius: 10px;
+    color:rgb(19, 109, 226);
+    border-color: #1266F1;
+    border: 2px solid;
+}

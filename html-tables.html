@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/logobacs.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-1.7.2.min.js" integrity="sha256-R7aNzoy2gFrVs+pNJ6+SokH04ppcEqJ0yFLkNGoFALQ=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fredoka+One&family=Fugaz+One&family=Montserrat:ital,wght@0,200;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Kode Kid</title>
+</head>
+
+<body>
+  <div class="container-fluid-sm">
+
+    <nav class="navbar navbar-expand-lg  shadow-lg p-4 mb-5 sticky-sm-top">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" ></span>
+          </button>
+          <a class="navbar-brand" href="index.html" id="logotext">KODE KID</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="startlearning.html">Tutorials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="register.html">Register</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark bg-light text-dark" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+        <div class="container">
+          <h6 class="mb-3"><a href="html-1.html">back</a></h6> 
+          <div class="row">
+            <div class="col-sm">
+              
+                <h3 class="text-white bg-primary text-center p-3 rounded">HTML Tables</h3>
+                <h4 class="text-start">What is a table?</h4>
+                <p>A table is a structured set of data made up
+                   of rows and columns (tabular data). A table allows
+                    you to quickly and easily look up values that indicate 
+                    some kind of connection between different types of data, 
+                    for example a person and their age, or a day of the week, 
+                    or the timetable for a local swimming pool.</p>
+                <p>HTML tables allow web developers to arrange data into rows and columns.</p>
+                   <h1 class="text-center"><img class="img-fluid"  src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics/numbers-table.png" alt=""></h1> 
+                   <hr>
+                  <h4>Table Cells</h4>
+                  <p>Each table cell is defined by a &lt;td&gt; and a </td> tag.</p>
+                  <p>Everything between &lt;td&gt; and &lt;/td&gt; are the content of the table cell.</p>
+                  <img class="img-fluid"src="images/td.png" alt="">
+                  <hr>
+                  <h4>HTML Table Tags</h4>
+                  
+                  <table class="table mb-5 ">
+                    <thead>
+                      <tr>
+                        <th scope="col">Tag</th>
+                        <th scope="col">Description</th>
+                        
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        
+                        <td>&lt;b&gt;</td>
+                        <td>Defines bold text</td>
+                       
+                      </tr>
+                      <tr class="bg-light">
+                        
+                        <td>&lt;table&gt;</td>
+                        <td>Defines table</td>
+                        
+                      </tr>
+                      <tr>
+                        <td>&lt;th&gt;</td>
+                        <td>Defines a header cell in a table</td>
+                       </tr>
+                       <tr class="bg-light">
+                        <td>&lt;tr&gt;</td>
+                        <td>Defines a table row in a table</td>
+                       </tr>
+                       <tr>
+                        <td>&lt;caption&gt;</td>
+                        <td>Defines a table caption</td>
+                       </tr>
+                       <tr class="bg-light">
+                        <td>&lt;colgroup&gt;</td>
+                        <td>Specifies a group of one or more columns in a table for formatting</td>
+                       </tr>
+                       <tr>
+                        <td>&lt;col&gt;</td>
+                        <td>Specifies column properties for each column within a element</td>
+                       </tr>
+                       <tr class="bg-light">
+                        <td>&lt;thead&gt;</td>
+                        <td>Groups the header content in a table</td>
+                       </tr>
+                       <tr>
+                        <td>&lt;tbody&gt;</td>
+                        <td>Groups the body content in a table</td>
+                       </tr>
+                       <tr class="bg-light">
+                        <td >&lt;tfoot&gt;</td>
+                        <td>Groups the footer content in a table</td>
+                       </tr>
+                    </tbody>
+                  </table>
+                
+
+                  <h3 class="text-center m-3">Active learning: Creating your first table</h3>
+                  <h1 class="text-center"><img class="img-fluid" src="images/td1.png" alt=""></h1>
+                  <h3 class="text-center m-3">Result</h3>
+                  <h1 class="text-center"><img class="img-fluid"src="images/td2.png" alt=""></h1>
+                  <br>
+
+                  <div class="row">
+                    <h4 class="bg-primary text-white p-3 text-center mb-3">Try to code here</h4>
+                    <div class="col border"><textarea id="about"  placeholder=" Write your first table here."></textarea></div>
+                    <div class="col border"  id="Preview"></div>
+                  </div>
+
+
+
+
+                  <h4>Learn more about HTML tables by watching these videos</h4>
+                  <div class="row mt-5">
+                    <div class="col"><a href="https://www.youtube.com/watch?v=naVmNPTxwfI&t=14s&ab_channel=DanGardner%28ComputingAtSchool%29"><img class="img-fluid rounded" src="https://i.ytimg.com/vi/biI9OFH6Nmg/maxresdefault.jpg" alt=""></a></div>
+                    <div class="col"><a href="https://www.youtube.com/watch?v=bWPMSSsVdPk&ab_channel=JakeWright"><img class="img-fluid rounded" src="https://www.sliderrevolution.com/wp-content/uploads/2021/05/table-header.jpg" alt=""></a></div>
+                    <div class="col"><a href="https://www.youtube.com/watch?v=kCZQPL8u_YI&ab_channel=tutmo"><img class="img-fluid rounded" src="https://webartdevelopers.com/blog/wp-content/uploads/2018/11/fixed-table-header.png" alt=""></a></div>
+                  </div>
+              <h5 class="text-end"><a href="html-tables.html">top</a></h5>
+
+            </div>
+          </div>
+
+        </div>
+                       
+
+
+           
+
+
+
+    
+    </div> <!--end of container-->
+    <footer>
+      <div class="col-12 text-center mt-5">
+        <p>All rights reserved @2022</p>
+      </div>
+    </footer>
+    <script>
+      $("#about").keypress(function() {
+        $("#Preview").html($(this).val())
+      });
+          </script>
+</body>
+</html>
