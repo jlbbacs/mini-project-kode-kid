@@ -51,7 +51,9 @@ li a {
 
 li a:hover{
     background-color: aliceblue;
+    border-radius: 10px;
     font-weight: bolder;
+
     
 }
     
