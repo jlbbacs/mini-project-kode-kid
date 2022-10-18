@@ -49,11 +49,12 @@ li a {
     line-height: 30px;
 }
 
-li a:hover{
+.nav-link li a:hover{
     background-color: aliceblue;
-    border-radius: 10px;
+    border-radius: 10px!important;
     font-weight: bolder;
 
+   
     
 }
     
